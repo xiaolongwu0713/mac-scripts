@@ -1,0 +1,9 @@
+1, backup zotero database to SSD
+usage: ./backup_zotero.sh
+
+
+2, sync google jupyter notebook to local python file *.py
+usage: ./sync_google_jupyter.sh selection_net
+
+3, download the high gamma from braindecode site
+usage: ./download_braindecode.sh
