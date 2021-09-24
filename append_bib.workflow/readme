@@ -1,0 +1,1 @@
+shell script won't run when append to 'watch me do' workflow, so use alias in .bash_profile to concatenate both.
