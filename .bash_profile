@@ -1,3 +1,4 @@
+# it's a hard link, that's right.
 #export FREESURFER_HOME=/Applications/freesurfer
 #source $FREESURFER_HOME/SetUpFreeSurfer.sh
 #export TUTORIAL_DATA=/Volumes/Samsung_T5/data/freesurfer/tutorial
@@ -30,7 +31,7 @@ export LSCOLORS=GxgxcxdxBxegedCbCgacad
 export PS1="\[\e[1;32m\]\u@\h:\W$ "
 export TERM=xterm-color
 
-alias zotero_bib='/usr/bin/automator /Users/long/scripts/zotero_bib.workflow'
+alias zotero_bib='/usr/bin/automator /Users/long/scripts/zotero_bib.workflow && /usr/bin/automator /Users/long/scripts/append_bib.workflow'
 alias init_fs_local='source /Users/long/scripts/initfreesurface.sh local'
 alias init_fs_ssd='source /Users/long/scripts/initfreesurface.sh ssd'
 alias eject_ssd='if diskutil list | grep Samsung_T5; then  diskutil unmountDisk /dev/disk2; diskutil eject /dev/disk2; echo "Unplug the Samsung SSD now"; else echo "No Samsung SSD founded"; fi'
